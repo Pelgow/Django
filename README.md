@@ -10,7 +10,7 @@ python manage.py runserver
 This will start the development server at http://127.0.0.1:8000/. You can access the Django admin site at http://127.0.0.1:8000/admin/.
 
 
-Access
+Access<br>
 There are 5 pages : <br>
 Index (http://127.0.0.1:8000/shop/). You can see all the products from here. there is a redirect for each link below.<br>
 Create (http://127.0.0.1:8000/shop/create). You can create a new article with this page.<br>
