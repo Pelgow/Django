@@ -11,9 +11,9 @@ This will start the development server at http://127.0.0.1:8000/. You can access
 
 
 Access
-There are 5 pages :
-Index (http://127.0.0.1:8000/shop/). You can see all the products from here. there is a redirect for each link below.
-Create (http://127.0.0.1:8000/shop/create). You can create a new article with this page.
-Update (http://127.0.0.1:8000/shop/update/<id>). You can update an existing article from here.
-Delete (http://127.0.0.1:8000/shop/delete/<id>). You can delete an existing article in this page.
+There are 5 pages : <br>
+Index (http://127.0.0.1:8000/shop/). You can see all the products from here. there is a redirect for each link below.<br>
+Create (http://127.0.0.1:8000/shop/create). You can create a new article with this page.<br>
+Update (http://127.0.0.1:8000/shop/update/<id>). You can update an existing article from here.<br>
+Delete (http://127.0.0.1:8000/shop/delete/<id>). You can delete an existing article in this page.<br>
 Show (http://127.0.0.1:8000/shop/<id>). You can see a particular article here.
