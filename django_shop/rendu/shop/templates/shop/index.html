@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shop</title>
+</head>
+<body>
+    <a href="/shop/create">Add New Product</a>
+{% for product in products %}
+    <div class="product">
+        <h2>{{ product.name }}</h2>
+        <p>{{ product.price }}</p>
+        <p>{{ product.stock }}</p>
+        <img src="{{ product.image }}" alt="{{ product.name }}">
+        <a href="/shop/{{ product.id }}">Afficher</a>
+        <a href="/shop/update/{{ product.id }}">Modifier</a>
+        <a href="/shop/delete/{{ product.id }}">Supprimer</a>
+    </div>
+{% endfor %}
+</body>
+</html>
